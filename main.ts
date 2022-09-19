@@ -1,5 +1,6 @@
 input.onButtonPressed(Button.A, function () {
     player.move(-1)
+    basic.showNumber(0)
 })
 input.onButtonPressed(Button.B, function () {
     player.move(1)
